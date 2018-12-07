@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Api - Client</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+    <link rel="stylesheet" href="style/index.css">
+</head>
+<body>
+    <div id="id01" class="modal">
+
+        <div class="modal-content animate">
+            <div class="imgcontainer">
+                <h3>Register User</h3>
+            </div>
+
+            <div class="container">
+                <label><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="username" id="reg_username" required>
+
+                <label><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="password" id="reg_password" required>
+
+                <button onclick="registerData();">Register</button>
+            </div>
+
+            <div class="container" style="background-color:#f1f1f1">
+                <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="form">
+        <div class="imgcontainer">
+            <h3>Api teste</h3>
+            <h4>Login</h4>
+        </div>
+
+        <div class="container">
+            <label><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="username" id="log_username" required>
+
+            <label><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="password" id="log_password" required>
+
+            <button onclick="logata();">Login</button>
+            <div class="container" style="background-color:#f1f1f1">
+                <button id="register" type="button" class="registerbtn">Register</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

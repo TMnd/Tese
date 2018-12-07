@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--script src="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.1.3/build/ol.js"></script>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.1.3/css/ol.css"-->
+    <script src="lib/OpenLayers/ol.js"></script>
+    <link rel="stylesheet" href="lib/OpenLayers/ol.css">
+    <!--script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script-->
+    <script src="lib/jQuery/jquery_3.3.1.min.js"></script>
+    <!-- jQuery Modal -->
+    <!--script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script-->
+    <script src="lib/jQuery/Modal/jquery.modal.min.js"></script>
+    <!--link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" /-->
+    <link rel="stylesheet" href="lib/jQuery/Modal/jquery.modal.min.css" />
+    <link rel="stylesheet" href="style/mapa.css">
+    <script src="js/pace/pace.js" defer></script>
+</head>
+<body>
+    <div id="ex1" class="modal">
+        <div>
+            <table id="custo" style="width: 100%">
+                <tr>
+                <th>Tipo de pavimento</th>
+            </tr>
+                <tr>
+                    <td>Calçada portuguesa / Cimento:</td>
+                    <td><input type="number" min="1" max="5" id="portugueswalkway_concrete-roadMultiplier" name="portugueswalkway_concrete" value="" class="orderbox"></td>
+                </tr>
+                <tr>
+                    <td>Alcatrão</td>
+                    <td><input type="number" min="1" max="5" id="tarmac-roadMultiplier" name="tarmac" value="" class="orderbox"></td>
+                </tr>
+                <tr>
+                    <td>Pista de bicicleta</td>
+                    <td><input type="number" min="1" max="5" id="cicleway-roadMultiplier" name="cicleway" value="" class="orderbox"></td>
+                </tr>
+                <tr>
+                    <td>Terra</td>
+                    <td><input type="number" min="1" max="5" id="dirt-roadMultiplier" name="dirt" value="" class="orderbox"></td>
+                </tr>
+                <tr>
+                    <td>Passadiço de madeira/metal</td>
+                    <td><input type="number" min="1" max="5" id="woodenway_metalway-roadMultiplier" name="woodenway_metalway" value="" class="orderbox"></td>
+                </tr>
+                <tr>
+                    <th>Inclinação</th>
+                </tr>
+                <tr>
+                    <td>Escadas:</td>
+                    <td><input type="checkbox"  id="stairs-incli" name="stairs" /> </td>
+                </tr>
+                <tr>
+                    <td>Auxiliares</td>
+                    <td><input type="checkbox" id="helpmovement-incli" name="helpmovement"  /> </td>
+                </tr>
+                <tr>
+                    <th>Cobertura:</th>
+                </tr>
+                <tr>
+                    <td>Caminho pela sombra:</td>
+                    <td><input type="checkbox" id="coverage_shape-cover" name="Shade"/> </td>
+                </tr>
+                <tr>
+                    <td>Protege da chuva</td>
+                    <td><input type="checkbox" id="coverage_rainprotected-cover" name="Rain protected"/> </td>
+                </tr>
+                <tr>
+                <th colspan="2">Utentes das estradas:</th>
+                </tr>
+                <tr>
+                    <th colspan="2" style="font-size: 10px">Estas secção visa para diminuir a utilização das estradas!</th>
+                </tr>
+                <tr>
+                    <td>Carro:</td>
+                    <td><input type="checkbox" id="allowcars-security" name="Shade"/> </td>
+                </tr>
+                <tr>
+                    <td>Bicicleta:</td>
+                    <td><input type="checkbox" id="allowbikes-security" name="Rain protected"/> </td>
+                </tr>
+            </table>
+        </div>
+        <br>
+        <button id="sendDataButton">Enviar</button>
+    </div>
+    <div class="ficheiro"> Ficheiro csv dos POIS: <input type="file" name="myFile" id="fileinput"></div>
+    <div class="ficheirojson"> Delete POI: <input type="checkbox" id="deletepoi" name="deletepoi"  /> </div>
+    <p class="name_user">User: <b id="name_user"></b></p>
+    <p class="informacao"><a href="#ex1" rel="modal:open" class="info_back ui-button ui-widget ui-corner-all">Custo</a></p>
+    <p class="logout"><a href="#ex1" class="logout_back ui-button ui-widget ui-corner-all" id="logout">Logout</a></p>
+    <p class="distanciaPercorrida"><b>Distancia:</b><span></span></p>
+    <div id="map" class="map"></div>
+</body>
+<script src="js/main.js"></script>
+<script src="js/openLayers.js"></script>
+<!--link href="https://cdn.jsdelivr.net/npm/ol-contextmenu@latest/dist/ol-contextmenu.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/ol-contextmenu"></script-->
+<link href="lib/OpenLayers/contextmenu/ol-contextmenu.min.css" rel="stylesheet">
+<script src="lib/OpenLayers/contextmenu/ol-contextmenu.js"></script>
+<!--script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"-->
+<script src="lib/jQueryUI/jquery-ui.js"></script>
+<link rel="stylesheet" href="lib/jQueryUI/jquery-ui.css">
+</html>

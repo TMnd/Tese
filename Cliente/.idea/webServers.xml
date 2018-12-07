@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="4fb9a486-ce07-42ec-9c11-0bd971c4d90f" name="UA-Tese-Cliente" url="http://aal.ieeta.pt">
+        <fileTransfer host="aal.ieeta.pt" port="22" rootFolder="/var/www/html/hlt/apiteste" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

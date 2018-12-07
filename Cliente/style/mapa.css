@@ -1,0 +1,77 @@
+body{
+    height: 100%;
+}
+
+.map{
+    position: absolute;
+    height: 99%;
+    width: 99%;
+}
+.ficheiro{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+}
+.ficheirojson{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+}
+
+.name_user{
+    position: absolute;
+    z-index: 2;
+    top: 8em;
+    left: 1.2em;
+}
+
+.distanciaPercorrida{
+    position: absolute;
+    z-index: 2;
+    top: -1em;
+    left: 1.2em;
+}
+
+.informacao{
+    position: absolute;
+    z-index: 2;
+    top: 4em;
+    left: 1.2em;
+}
+
+.logout{
+    position: absolute;
+    z-index: 2;
+    top: 6em;
+    left: 1.2em;
+}
+
+.chooseOrder{
+    float: left;
+    border: 1px solid black;
+    padding-right: 3px;
+    width: 13px;
+    text-align: center;
+}
+
+.opcao{
+    font-weight: normal;
+}
+
+.modal{
+    width: 255px;
+}
+.orderbox{
+    width: 25px;
+}
+
+.logout_back{
+    background-color: #f44336 !important;
+}
+
+.info_back{
+    width: 49px;
+    background-color: white !important;
+}
