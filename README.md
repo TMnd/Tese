@@ -6,9 +6,9 @@ Autor:
 
 O trabalho encontra-se divido em duas pastas que contêm o cliente de exemplo e a primeira versão da API.
 
-A API necessita de 3 ficheiros para que funcione corretamente:
-  -Ficheiro Raster das alturas de Portugal continental (deve ser colocado na pasta \API\data).
-  -Ficheiros SQL de dados do OpenStreetMaps adquiridos através da ferramenta OSM2PO (devem ser colocado na pasta \API\sql).
+A API necessita de 3 ficheiros para que funcione corretamente:<br />
+  -Ficheiro Raster das alturas de Portugal continental (deve ser colocado na pasta \API\data).<br />
+  -Ficheiros SQL de dados do OpenStreetMaps adquiridos através da ferramenta OSM2PO (devem ser colocado na pasta \API\sql).<br />
   
 Para o âmbito do contexto da dissertação, foram utilizados os seguintes ficheiros:
 https://1drv.ms/f/s!AqDqQKfTHvgYnmzCLKukuzaE8vVd
