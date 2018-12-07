@@ -2,7 +2,9 @@
 
 **Introduction:**
 
-API desenvolvida para a tese do tema "Recomendação de percursos com base de parâmetros e restrições multidimensionais" do mestrado de Engenharia de informatica da Universidade de Aveiro.
+API desenvolvida para a tese do tema "Recomendação de percursos com base de parâmetros e restrições multidimensionais" do mestrado de Engenharia de informatica da Universidade de Aveiro.<br>
+<br>
+O ficheiro Algoritmo2.py contém a proposta de algoritmo de pesquisa de caminho cujo limite é a distancia maxima pretendida.
 
 **Requisitos:**
 
