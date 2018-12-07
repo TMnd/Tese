@@ -1,9 +1,6 @@
 # Tese
 Trabalho do âmbito da dissertação Recomendação de percursos com base de parâmetros e restrições multidimensionais do Mestrado de Engenharia Informática da Universidade de Aveiro.
 
-Autor:
-  - João Luís Amaral
-
 O trabalho encontra-se divido em duas pastas que contêm o cliente de exemplo e a primeira versão da API.
 
 A API necessita de 3 ficheiros para que funcione corretamente:<br />
