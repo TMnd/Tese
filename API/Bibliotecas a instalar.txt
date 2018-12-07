@@ -1,0 +1,17 @@
+lazy
+rtree
+psycopg2
+requests
+flask
+flask_cors
+INI!!
+GDAL:
+    - Debian:
+            - apt-get install python3_gdal ou python3-gdal -- (para o python)
+            - apt-get install gdal_bin     -- (para o script)
+            se = raise OSError("Could not find libspatialindex_c library file"):
+                apt-get install libspatialindex-dev
+autenticação:
+    Flask-SQLAlchemy (?)
+    flask_httpauth
+    passlib

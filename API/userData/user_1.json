@@ -1,0 +1,1 @@
+{"helpMovement": true, "roadUserPreferences": {"allowbikes": true, "allowcars": true}, "id": 1, "coverage": {"rainProtected": true, "shade": true}, "sidewalk_width": 2, "declivity": {"down": 10, "up": 15}, "roadTypes": {"portuguesWalkway_Concrete": "1", "tarmac": "2", "dirt": "4", "cicleway": "3", "woodenWay_metalWay": "5"}}

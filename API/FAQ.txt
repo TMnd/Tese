@@ -1,0 +1,5 @@
+Instalação da biblioteca GDAL para Linux-Debian:
+    - apt-get install python3_gdal ou python3-gdal
+    - apt-get install gdal_bin
+    - Caso apareça o erro: raise OSError("Could not find libspatialindex_c library file"):
+        - apt-get install libspatialindex-dev
