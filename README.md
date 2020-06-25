@@ -9,3 +9,5 @@ A API necessita de 3 ficheiros para que funcione corretamente:<br />
   
 Para o âmbito do contexto da dissertação, foram utilizados os seguintes ficheiros:
 https://1drv.ms/f/s!AqDqQKfTHvgYnmzCLKukuzaE8vVd
+
+Version 2 is incomplete!
